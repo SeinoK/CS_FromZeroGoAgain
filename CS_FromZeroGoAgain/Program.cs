@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CS_FromZeroGoAgain
+namespace CS_PrintNineTimesNine
 {
     class Program
     {

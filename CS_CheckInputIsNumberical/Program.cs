@@ -10,15 +10,18 @@ namespace CS_CheckInputIsNumberical
     {
         static void Main(string[] args)
         {
-            GetInput();
+            string str = GetInput().ToString();
+            Console.Write("You have input: " + str);
+            Console.ReadKey();
         }
         static int GetInput()
         {
             int num = 0;
-            string str = Console.ReadLine();
+            string str;
+            Console.Write("Please Input A Number: ");
             while (true)
             {
-                Console.Write("Please Input A Number: ");
+                str = Console.ReadLine();
                 if (IsNumber(str))
                 {
                     num = Convert.ToInt32(str);
@@ -26,7 +29,8 @@ namespace CS_CheckInputIsNumberical
                 }
                 else
                 {
-                    Console.Write("Please Input A Number Again: ");
+                    Console.Clear();
+                    Console.Write("Please input again: ");
                 }
             }
             return num;

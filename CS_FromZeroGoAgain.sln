@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_FromZeroGoAgain", "CS_FromZeroGoAgain\CS_FromZeroGoAgain.csproj", "{A72C7B2C-B2CC-4198-93DE-F6C2B1E4DCFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_PrintNineTimesNine", "CS_FromZeroGoAgain\CS_PrintNineTimesNine.csproj", "{A72C7B2C-B2CC-4198-93DE-F6C2B1E4DCFE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_01_GetDivisor", "CS_01_GetDivisor\CS_01_GetDivisor.csproj", "{8E0B8400-304C-4788-BD4A-74FA559A85AD}"
 EndProject
