@@ -54,12 +54,12 @@ namespace CS_DaffodilNumber
             return num;
         }
 
-        static void FindDaffodilBetween0_999()
+        static void FindDaffodilBetween0_999()   //This is a simple for solving the problem
         {
 
             for (int i = 100; i < 1000; i++)
             {
-                int ge = i % 10;
+                int ge = i % 10;   //get 
                 int shi = (i / 10) % 10;
                 int bai = i / 100;
                 if ((bai * bai * bai + shi * shi * shi + ge * ge * ge) == i)
