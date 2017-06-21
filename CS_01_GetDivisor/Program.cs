@@ -17,10 +17,7 @@ namespace CS_01_GetDivisor
             DynamicArray();
             //Console.ReadKey();
         }
-
-
-
-
+        
         static int[] GetDivisor(int Num)  // Get all divisors of a number
         {
             int count = 0;
