@@ -2,3 +2,4 @@ C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_Check
 C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_CheckInputIsNumberical\bin\Debug\CS_CheckInputIsNumberical.pdb
 C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_CheckInputIsNumberical\obj\Debug\CS_CheckInputIsNumberical.exe
 C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_CheckInputIsNumberical\obj\Debug\CS_CheckInputIsNumberical.pdb
+C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_CheckInputIsNumberical\obj\Debug\CS_CheckInputIsNumberical.csprojResolveAssemblyReference.cache

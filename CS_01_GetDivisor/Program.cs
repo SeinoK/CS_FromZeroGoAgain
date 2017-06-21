@@ -21,7 +21,7 @@ namespace CS_01_GetDivisor
 
 
 
-        static int[] GetDivisor(int Num)
+        static int[] GetDivisor(int Num)  // Get all divisors of a number
         {
             int count = 0;
             for (int i = 1; i <= Num; i++)
@@ -46,16 +46,22 @@ namespace CS_01_GetDivisor
         {
             Console.WriteLine("Please input numbers in format (1,2,3,4,...100)");
             var input = Console.ReadLine();
-            var strings = input.Split(',');
+            var strings = input.Split(',');   //Here got a string array you can print strings that you got "System.String[]"
+            //foreach (var item in strings)45
+            //{
+            //    Console.Write(item + " ");
+            //}
+            //Console.Write(strings + "  ");
+
             var numbers = new double[strings.Length];
-            for (int i = 0; i < strings.Length; i++)
+            for (int i = 0; i < strings.Length; i++)     //Fill numbers[] with item in strings[]
             {
-                numbers[i] = Convert.ToDouble(strings[i]);
+                numbers[i] = Convert.ToDouble(strings[i]);    //convert element in strings to double type
             }
             bool flag = true;
             double temp;
             int numLength = numbers.Length;
-            //sorting an array
+            //sorting the array
             for (int i = 1; (i <= (numLength - 1)) && flag; i++)
             {
                 flag = false;

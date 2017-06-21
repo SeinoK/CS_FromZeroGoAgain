@@ -11,14 +11,14 @@ namespace CS_CheckInputIsNumberical
         static void Main(string[] args)
         {
             string str = GetInput().ToString();
-            Console.Write("You have input: " + str);
+            Console.Write("You have input a number: " + str);
             Console.ReadKey();
         }
         static int GetInput()
         {
             int num = 0;
             string str;
-            Console.Write("Please Input A Number: ");
+            Console.Write("Please input a number: ");
             while (true)
             {
                 str = Console.ReadLine();
