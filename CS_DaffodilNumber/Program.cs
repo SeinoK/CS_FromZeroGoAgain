@@ -10,15 +10,13 @@ namespace CS_DaffodilNumber
     {
         static void Main(string[] args)
         {
-            //Console.Write("All Daffodil Number Between 0 And 999 : ");
+            Console.Write("All daffodil number between 0 And 999 : ");
             //FindDaffodil();
-            //FindDaffodilBetween0_999();
-            int num = GetInput();
-            Console.Write(num);
+            FindDaffodilBetween0_999();
             Console.ReadLine();
         }
 
-        //static void finddaffodil()     //THIS CAN't WORK
+        //static void Finddaffodil()     //THIS CAN't WORK
         //{
         //    for (int i = 1; i < 10; i++)
         //    {
@@ -34,32 +32,14 @@ namespace CS_DaffodilNumber
         //        }
         //    }
         //}
-        static int GetInput()
-        {
-            int num = 0;
-            string str = Console.ReadLine();
-            while (true)
-            {
-                Console.Write("Please Input A Number: ");
-                if (IsNumber(str))
-                {
-                    num = Convert.ToInt32(str);
-                    break;
-                }
-                else
-                {
-                    Console.Write("Please Input A Number Again: ");
-                }
-            } 
-            return num;
-        }
+        
 
         static void FindDaffodilBetween0_999()   //This is a simple for solving the problem
         {
 
             for (int i = 100; i < 1000; i++)
             {
-                int ge = i % 10;   //get 
+                int ge = i % 10;   
                 int shi = (i / 10) % 10;
                 int bai = i / 100;
                 if ((bai * bai * bai + shi * shi * shi + ge * ge * ge) == i)
@@ -70,21 +50,7 @@ namespace CS_DaffodilNumber
         }
 
 
-        static void FindDaffodil()
-        {
 
-        }
 
-        static bool IsNumber(string str)
-        {
-            for (int i = 0; i < str.Length; i++)
-            {
-                if (str[i] < '0' || str[i] > '9')
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
     }
 }
