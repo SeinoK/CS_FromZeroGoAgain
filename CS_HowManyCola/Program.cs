@@ -21,16 +21,17 @@ namespace CS_HowManycola
             //}
             //while (bottle > 3)//对每次的bottle值进行比较，如果小于3这说明兑换不了
             //{
+
             //    temp += bottle;
             //    bottle = bottle / 3 + bottle % 3;
             //    // Console.Write("You have drink {0} bottle cola, and have {1} bottle left", cola, remainBottle);
             //}
             //Console.WriteLine("cola:{0}  remainBottle:{1} ", temp, bottle);
             //Console.ReadKey();
-            //Chicken();
+            Chicken();
             //Console.ReadKey();
 
-            //Cola();
+            Cola();
             //GuessNumber();
         }
 
