@@ -39,21 +39,16 @@ namespace CS_01_GetDivisor
             return array;
         }
 
-        static void DynamicArray()
+        static void DynamicArray()  //将用户按照固定规则输入的内容按照降序的书序排列
         {
             Console.WriteLine("Please input numbers in format (1,2,3,4,...100)");
             var input = Console.ReadLine();
-            var strings = input.Split(',');   //Here got a string array you can print strings that you got "System.String[]"
-            //foreach (var item in strings)45
-            //{
-            //    Console.Write(item + " ");
-            //}
-            //Console.Write(strings + "  ");
+            var strings = input.Split(',');   //这里的strings是一个string[]类型，里面存放着输入的字符串以逗号剪切区分之后的字符串
 
             var numbers = new double[strings.Length];
-            for (int i = 0; i < strings.Length; i++)     //Fill numbers[] with item in strings[]
+            for (int i = 0; i < strings.Length; i++)     //将string[]数组中的元素存入到numbers[]中去
             {
-                numbers[i] = Convert.ToDouble(strings[i]);    //convert element in strings to double type
+                numbers[i] = Convert.ToDouble(strings[i]);    //将string[]中的元素转化成double类型
             }
             bool flag = true;
             double temp;

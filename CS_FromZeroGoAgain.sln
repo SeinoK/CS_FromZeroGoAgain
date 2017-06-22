@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_PrintNineTimesNine", "CS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_HowManyCola", "CS_HowManyCola\CS_HowManyCola.csproj", "{23E8B158-3E14-4AF4-883A-5790FEAC6437}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_CheckUserNameOrPassword", "CS_CheckUserNameOrPassword\CS_CheckUserNameOrPassword.csproj", "{A6E52E3F-CE51-45E9-8E29-0EFCC87DB1EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{23E8B158-3E14-4AF4-883A-5790FEAC6437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23E8B158-3E14-4AF4-883A-5790FEAC6437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23E8B158-3E14-4AF4-883A-5790FEAC6437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E52E3F-CE51-45E9-8E29-0EFCC87DB1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E52E3F-CE51-45E9-8E29-0EFCC87DB1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E52E3F-CE51-45E9-8E29-0EFCC87DB1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E52E3F-CE51-45E9-8E29-0EFCC87DB1EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

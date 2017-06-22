@@ -2,3 +2,4 @@ C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_Print
 C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_PrintNineTimesNine\bin\Debug\CS_PrintNineTimesNine.pdb
 C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_PrintNineTimesNine\obj\Debug\CS_PrintNineTimesNine.exe
 C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_PrintNineTimesNine\obj\Debug\CS_PrintNineTimesNine.pdb
+C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_PrintNineTimesNine\obj\Debug\CS_PrintNineTimesNine.csprojResolveAssemblyReference.cache
