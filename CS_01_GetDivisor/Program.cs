@@ -81,9 +81,7 @@ namespace CS_01_GetDivisor
             Console.WriteLine(string.Join(",", str));
             Console.ReadKey();
         }
-
-
-
+        
         //static int[] GetDivisorOptim(int num)
         //{
         //    int count = 0;

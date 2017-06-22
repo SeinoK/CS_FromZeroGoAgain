@@ -1,0 +1,5 @@
+C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_HowManyCola\bin\Debug\CS_HowManyCola.exe
+C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_HowManyCola\bin\Debug\CS_HowManyCola.pdb
+C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_HowManyCola\obj\Debug\CS_HowManyCola.exe
+C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_HowManyCola\obj\Debug\CS_HowManyCola.pdb
+C:\Users\Seino\Documents\Visual Studio 2015\Projects\CS_FromZeroGoAgain\CS_HowManyCola\obj\Debug\CS_HowManyCola.csprojResolveAssemblyReference.cache
