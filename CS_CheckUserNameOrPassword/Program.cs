@@ -17,25 +17,10 @@ namespace CS_CheckUserNameOrPassword
         
         static void Main(string[] args)
         {
-            //string userName = "user";
-            //string password = "psd";
-            //string inputUser = "";
-            //string inputpassword = "";
-            int count = 0;
-            while (count < 3)
-            {
-                if (!IsCorrect())
-                {
-                    count++;
-                    Console.WriteLine("You have {0} times to input", (3 - count));
-                }
-            }
-            //Console.Write("count: {0}", count);
-            if (count == 3)
-            {
-                password = ChangeNameOrPassword();
-                //Console.WriteLine("You have {0} times to input", (3 - count));
-            }
+
+
+            CheckPasswordCanChange();
+            
             Console.ReadKey();
         }
 
@@ -54,17 +39,17 @@ namespace CS_CheckUserNameOrPassword
             else if ((username == inputUser) && (password == inputpassword))
             {
                 //Console.Clear();
-                Console.WriteLine("You are right");
+                Console.WriteLine("You are right !");
                 isCorrecr = true;
             }
             return isCorrecr;
         }
 
-        static string ChangeNameOrPassword()
+        static string ChangePassword()
         {
             string newPassword = "";
             Console.Write("Please input your reset password： ");
-            newPassword =  Console.ReadKey().ToString();
+            newPassword = Console.ReadLine().ToString();
             return newPassword;
         }
 
@@ -74,6 +59,29 @@ namespace CS_CheckUserNameOrPassword
             if(command>=0 && command <= 10)
             Console.ReadKey();
             return command;
+        }
+        static bool CheckPasswordCanChange()
+        {
+            bool canChangePassword = false;
+            int count = 0;
+            while (count < 3)
+            {
+                if (!IsCorrect())
+                {
+                    count++;
+                    Console.WriteLine("You have {0} times to input", (3 - count));
+                }
+            }
+            //Console.Write("count: {0}", count);
+            if (count == 3)
+            {
+                string pwd = "";
+                pwd = ChangePassword();
+                password = pwd;
+                canChangePassword = true;
+                //Console.WriteLine("You have {0} times to input", (3 - count));
+            }
+            return canChangePassword;
         }
 
     }
