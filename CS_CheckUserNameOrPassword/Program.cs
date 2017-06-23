@@ -7,6 +7,9 @@ namespace CS_CheckUserNameOrPassword
 {
     class Program
     {
+        private static string username = "user";
+        private static string password = "123";
+
         static void Main(string[] args)
         {
             //string userName = "user";
@@ -14,32 +17,48 @@ namespace CS_CheckUserNameOrPassword
             //string inputUser = "";
             //string inputpassword = "";
             int count = 0;
-            while (count > 3)
+            while (count < 3)
             {
-                count ++;
-
-                Console.Write("count: {0}",count);
+                if (!IsCorrect())
+                {
+                    count++;
+                    Console.WriteLine("You have {0} times to input", (3 - count));
+                }
+                // Console.Write("count: {0}",count);
+            }
+            if (count > 3)
+            {
+                ChangeNameOrPassword();
+                //Console.WriteLine("You have {0} times to input", (3 - count));
             }
             Console.ReadKey();
-
-        }
-        static void Menu()
-        {
-            
         }
 
-        static bool IsCorrect(string username, string password)
+        static bool IsCorrect()
         {
+            bool isCorrecr = false;
             Console.Write("Please input user name: ");
             string inputUser = Console.ReadLine();
             Console.Write("Please input user password: ");
             string inputpassword = Console.ReadLine();
-            if ((username == inputUser) && (password == inputpassword))
+            if ((username != inputUser) || (password != inputpassword))
             {
-
+                Console.Clear();
+                Console.WriteLine("You got user name or password wrong");
             }
-            return true;
+            else if ((username == inputUser) && (password == inputpassword))
+            {
+                //Console.Clear();
+                Console.WriteLine("You are right");
+                isCorrecr = true;
+            }
+            return isCorrecr;
         }
-       
+
+        static void ChangeNameOrPassword()
+        {
+            Console.Write("Please input your new password");
+        }
+
     }
 }
