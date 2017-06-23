@@ -9,7 +9,12 @@ namespace CS_CheckUserNameOrPassword
     {
         private static string username = "user";
         private static string password = "123";
-
+        public struct user
+        {
+            string name;
+            string password;
+        };
+        
         static void Main(string[] args)
         {
             //string userName = "user";
@@ -24,11 +29,11 @@ namespace CS_CheckUserNameOrPassword
                     count++;
                     Console.WriteLine("You have {0} times to input", (3 - count));
                 }
-                // Console.Write("count: {0}",count);
             }
-            if (count > 3)
+            //Console.Write("count: {0}", count);
+            if (count == 3)
             {
-                ChangeNameOrPassword();
+                password = ChangeNameOrPassword();
                 //Console.WriteLine("You have {0} times to input", (3 - count));
             }
             Console.ReadKey();
@@ -43,7 +48,7 @@ namespace CS_CheckUserNameOrPassword
             string inputpassword = Console.ReadLine();
             if ((username != inputUser) || (password != inputpassword))
             {
-                Console.Clear();
+                //Console.Clear();
                 Console.WriteLine("You got user name or password wrong");
             }
             else if ((username == inputUser) && (password == inputpassword))
@@ -55,9 +60,20 @@ namespace CS_CheckUserNameOrPassword
             return isCorrecr;
         }
 
-        static void ChangeNameOrPassword()
+        static string ChangeNameOrPassword()
         {
-            Console.Write("Please input your new password");
+            string newPassword = "";
+            Console.Write("Please input your reset password： ");
+            newPassword =  Console.ReadKey().ToString();
+            return newPassword;
+        }
+
+        static int Menu()
+        {
+            int command = 0;
+            if(command>=0 && command <= 10)
+            Console.ReadKey();
+            return command;
         }
 
     }
