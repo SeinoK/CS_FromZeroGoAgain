@@ -17,10 +17,11 @@ namespace CS_CheckUserNameOrPassword
         
         static void Main(string[] args)
         {
-
-
-            CheckPasswordCanChange();
             
+            CheckPasswordCanChange();
+
+
+
             Console.ReadKey();
         }
 
