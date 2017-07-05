@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_HowManyCola", "CS_HowMan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_CheckUserNameOrPassword", "CS_CheckUserNameOrPassword\CS_CheckUserNameOrPassword.csproj", "{A6E52E3F-CE51-45E9-8E29-0EFCC87DB1EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEncryption", "SimpleEncryption\SimpleEncryption.csproj", "{36026385-0E56-43C6-BD2A-4932E1607904}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A6E52E3F-CE51-45E9-8E29-0EFCC87DB1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6E52E3F-CE51-45E9-8E29-0EFCC87DB1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6E52E3F-CE51-45E9-8E29-0EFCC87DB1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36026385-0E56-43C6-BD2A-4932E1607904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36026385-0E56-43C6-BD2A-4932E1607904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36026385-0E56-43C6-BD2A-4932E1607904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36026385-0E56-43C6-BD2A-4932E1607904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

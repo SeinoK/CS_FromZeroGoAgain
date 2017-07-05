@@ -19,9 +19,7 @@ namespace CS_CheckUserNameOrPassword
         {
             
             CheckPasswordCanChange();
-
-
-
+            
             Console.ReadKey();
         }
 
